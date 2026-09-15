@@ -1,8 +1,7 @@
 # Whisked Away
 
-A fictional Ottawa-area home bakery website built as a portfolio project. The site is a static, accessible GitHub Pages experience with a front-end ordering prototype. It does not process payments or submit private information.
+A responsive Ottawa-area home bakery website with an accessible front-end ordering experience.
 
-## Payment activation
+## Orders and payment
 
-The checkout is intentionally a prototype. A production launch would use Stripe Checkout or Square Online Checkout through a small serverless endpoint. Never place secret API keys in this repository.
-
+Customers submit an order request and receive e-transfer instructions after the bakery confirms availability. The static site does not collect banking details or process payments.
